@@ -1,0 +1,373 @@
+{
+	"info": {
+		"_postman_id": "07c9e532-d5eb-4973-8ee9-5fbc69389dd5",
+		"name": "Garden",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34602501"
+	},
+	"item": [
+		{
+			"name": "contacts",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5888/contacts",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5888",
+							"path": [
+								"contacts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5888/contacts/4a875bfa-4204-4f24-8167-373494f0157c",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5888",
+							"path": [
+								"contacts",
+								"4a875bfa-4204-4f24-8167-373494f0157c"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"fullname\": \"Madara\",\r\n    \"email\": \"john@gmail.com\",\r\n    \"phone\": \"+15566885255\",\r\n    \"description\": \"smth about him\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5888/contacts",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5888",
+							"path": [
+								"contacts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"fullname\": \"edited Madara\",\r\n    \"email\": \"john@gmail.com\",\r\n    \"phone\": \"+15566885255\",\r\n    \"description\": \"smth about him\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5888/contacts/4a875bfa-4204-4f24-8167-373494f0157c",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5888",
+							"path": [
+								"contacts",
+								"4a875bfa-4204-4f24-8167-373494f0157c"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5888/contacts/4a875bfa-4204-4f24-8167-373494f0157c",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5888",
+							"path": [
+								"contacts",
+								"4a875bfa-4204-4f24-8167-373494f0157c"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "workers",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5888/workers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5888",
+							"path": [
+								"workers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5888/workers/f61b98ec-512b-4cb8-843d-37010b25f7d4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5888",
+							"path": [
+								"workers",
+								"f61b98ec-512b-4cb8-843d-37010b25f7d4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Obito\",\r\n    \"position\": \"Gardener\",\r\n    \"experience\": \"4 years\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5888/workers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5888",
+							"path": [
+								"workers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"edited Obito\",\r\n    \"position\": \"Gardener\",\r\n    \"experience\": \"4 years\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5888/workers/44c92d11-fef5-497a-90d6-eee5bafc363b",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5888",
+							"path": [
+								"workers",
+								"44c92d11-fef5-497a-90d6-eee5bafc363b"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5888/workers/44c92d11-fef5-497a-90d6-eee5bafc363b",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5888",
+							"path": [
+								"workers",
+								"44c92d11-fef5-497a-90d6-eee5bafc363b"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "projects",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Technology\",\r\n    \"name\": \"compAI\",\r\n    \"description\": \"smth about this\",\r\n    \"link\": \"https://example.com/projectlink\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5888/projects",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5888",
+							"path": [
+								"projects"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5888/projects",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5888",
+							"path": [
+								"projects"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5888/projects/59929e95-b511-4040-8083-625dac23334d",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5888",
+							"path": [
+								"projects",
+								"59929e95-b511-4040-8083-625dac23334d"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \" edited Technology\",\r\n    \"name\": \"compAI\",\r\n    \"description\": \"smth about this\",\r\n    \"link\": \"https://example.com/projectlink\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5888/projects/59929e95-b511-4040-8083-625dac23334d",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5888",
+							"path": [
+								"projects",
+								"59929e95-b511-4040-8083-625dac23334d"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5888/projects/59929e95-b511-4040-8083-625dac23334d",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5888",
+							"path": [
+								"projects",
+								"59929e95-b511-4040-8083-625dac23334d"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
